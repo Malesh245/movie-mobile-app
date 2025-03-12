@@ -1,50 +1,110 @@
-# Welcome to your Expo app 👋
+Mobile Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Introduction
 
-## Get started
+Welcome to the Mobile Movie App! This application, built using Expo React Native, provides users with a seamless experience to explore a vast collection of movies. Users can browse movies by genre, search for specific titles, and view detailed information, including ratings, reviews, and trailers. Whether you're a movie enthusiast or just looking for your next watch, this app has you covered!
 
-1. Install dependencies
+Features
 
-   ```bash
-   npm install
-   ```
+🎬 Browse Movies by Genre – Discover movies from different categories.
 
-2. Start the app
+🔍 Search for Specific Titles – Find your favorite movies instantly.
 
-   ```bash
-    npx expo start
-   ```
+📝 View Movie Details – Get information on ratings, reviews, and trailers.
 
-In the output, you'll find options to open the app in a
+🎥 Watch Trailers – View official trailers before deciding what to watch.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📱 User-Friendly Interface – Enjoy a smooth and intuitive UI.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Installation
 
-## Get a fresh project
+Follow these steps to set up and run the Mobile Movie App:
 
-When you're ready, run:
+Prerequisites
 
-```bash
-npm run reset-project
-```
+Node.js installed on your system
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo CLI installed globally (npm install -g expo-cli)
 
-## Learn more
+A mobile device with the Expo Go app installed (iOS/Android) or an emulator
 
-To learn more about developing your project with Expo, look at the following resources:
+Steps to Install
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Clone the repository:
 
-## Join the community
+git clone https://github.com/yourusername/mobile_movie_app.git
 
-Join our community of developers creating universal apps.
+Navigate to the project directory:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+cd mobile_movie_app
+
+Install dependencies:
+
+npm install
+
+Environment Variables
+
+To run the Mobile Movie App, you need to set up the following environment variables in a .env file:
+
+EXPO_PUBLIC_MOVIE_API_KEY=your_movie_api_key_here
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id_here
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id_here
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id_here
+
+Where to Get These Keys?
+
+EXPO_PUBLIC_MOVIE_API_KEY: Obtain it from The Movie Database API
+
+EXPO_PUBLIC_APPWRITE_PROJECT_ID: Found in your Appwrite console under project settings
+
+EXPO_PUBLIC_APPWRITE_DATABASE_ID: Located in the Appwrite database section
+
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID: Available under the collection settings in Appwrite
+
+Usage
+
+To run the application:
+
+Start the development server:
+
+npm start
+
+Scan the QR code in your terminal using the Expo Go app (iOS/Android) OR press w to open the app in a web browser.
+
+Running on an Emulator or Physical Device
+
+Android Emulator: Run npx expo run:android
+
+iOS Simulator: Run npx expo run:ios (macOS required)
+
+Physical Device: Open the Expo Go app and scan the QR code displayed in the terminal.
+
+Contributing
+
+We welcome contributions! If you’d like to improve this project, please follow these steps:
+
+Fork the repository
+
+Create a new branch (feature-branch)
+
+Make your changes
+
+Commit your changes (git commit -m "Add new feature")
+
+Push to the branch (git push origin feature-branch)
+
+Create a Pull Request
+
+Please read our CONTRIBUTING.md for more details.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+Contact
+
+For any inquiries, feel free to reach out:
+📧 Email: your.email@example.com
+
+Happy Coding! 🚀
+
