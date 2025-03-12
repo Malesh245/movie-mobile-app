@@ -53,7 +53,7 @@ To run the application:
 
 1. **Start the development server:**
    ```bash
-   npm start
+   npx expo start
    ```
 2. **Scan the QR code** in your terminal using the **Expo Go** app (iOS/Android) OR press `w` to open the app in a web browser.
 
