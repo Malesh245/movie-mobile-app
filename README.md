@@ -21,7 +21,7 @@ Follow these steps to set up and run the **Mobile Movie App**:
 ### Steps to Install
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/mobile_movie_app.git
+   git clone https://github.com/Malesh245/movie-mobile-app.git
    ```
 2. **Navigate to the project directory:**
    ```bash
