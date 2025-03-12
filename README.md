@@ -95,7 +95,7 @@ Push to the branch (git push origin feature-branch)
 
 Create a Pull Request
 
-Please read our CONTRIBUTING.md for more details.
+<!--Please read our CONTRIBUTING.md for more details.
 
 License
 
@@ -104,7 +104,7 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 Contact
 
 For any inquiries, feel free to reach out:
-📧 Email: your.email@example.com
+📧 Email: your.email@example.com -->
 
 Happy Coding! 🚀
 
